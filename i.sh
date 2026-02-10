@@ -1,12 +1,12 @@
 #!/data/data/com.termux/files/usr/bin/bash
-set -euo pipefail
+# set -euo pipefail
 
 echo "[1/9] Updating Termux packages..."
 pkg update -y
 pkg upgrade -y
 
 echo "[2/9] Installing base build tools + Python..."
-pkg install -y python clang make pkg-config git
+pkg install -y python clang make pkg-config git python-pip
 
 echo "[3/9] Installing lxml system dependencies (libxml2/libxslt)..."
 pkg install -y libxml2 libxslt
