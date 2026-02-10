@@ -47,7 +47,7 @@ python -m pip install -U fastuuid
 python -m pip install -U hf-xet
 
 echo "[9/9] Installing nanobot..."
-python -m pip install -U nanobot
+python -m pip install -U nanobot-ai
 
 echo
 echo "✅ Done. nanobot installed."
